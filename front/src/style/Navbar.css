@@ -1,0 +1,62 @@
+.mainBody{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px 0px 200px;
+    /* border-bottom: 1px solid red; */
+
+}
+
+.logo img{
+    height:70px;
+    width:auto;
+}
+.navText{
+    display: flex;
+
+}
+.navText p{
+    margin :10px;
+    cursor:pointer;
+    font-size: 20px;
+}
+.drop{
+    border: 2px solid black;
+    position:absolute;
+    top: 94px;
+    background-color: white;
+    /* border-top:none; */
+    /* padding:3px; */
+}
+.drop p:last-child{
+    border-bottom:none;
+}
+.drop p{
+    padding: 5px;
+    /* margin: 10px 0px 0px 0px!important; */
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 210px;
+    text-wrap:balance;
+    margin : 0px !important;
+    cursor:pointer;
+    text-align: left;
+    border-bottom: 2px dashed black;
+    
+}
+.drop p:hover{
+    background-color: black;
+    color:white;
+}
+.contact{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 0px 0Px 10px 10px;
+    color:white
+}
+.contact p{
+   margin:10px;
+}
