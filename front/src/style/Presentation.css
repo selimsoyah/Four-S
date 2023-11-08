@@ -1,0 +1,91 @@
+.MainPlain{
+    display: flex;
+    height:700px;
+  
+}
+.text{
+   
+    height: inherit;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainText{
+    /* margin: 50px 50px 50px 50px; */
+    border: 2px dashed black;
+    border-radius: 10px;
+    padding: 20px;;
+}
+.mainText p{
+    width: 500px;
+    text-align: left;
+    font-size:25px;
+}
+ .button2 {
+    font-size:16px;
+    height: 50px;
+    width: 100px;
+    border-radius:30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.button2:hover {
+  background-color: #2980b9; /* Change the background color on hover */
+  transform: translateY(-5px); /* Move the button slightly up */
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
+.image{
+    width: 50%;
+    height: inherit;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainImage img {
+    height :500px;
+}
+.MainCar{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+.owl-theme{
+ /* background-color: green; */
+ /* border:2px solid black ; */
+ border-radius: 10px;
+ padding:10px;
+
+    width:70%!important;
+}
+.item img{
+    height: 200px;
+    width:300px;
+    border-radius: 10px;
+}
+.owl-nav{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.owl-next span, .owl-prev span{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+    apdding-bottom:30px;
+  
+}
+.owl-next, .owl-prev{
+    width:50px;
+    height:50px;
+}

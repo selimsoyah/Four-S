@@ -25,11 +25,13 @@
     position:absolute;
     top: 94px;
     background-color: white;
+    z-index: 1;
     /* border-top:none; */
     /* padding:3px; */
 }
 .drop p:last-child{
     border-bottom:none;
+
 }
 .drop p{
     padding: 5px;
@@ -59,4 +61,31 @@
 }
 .contact p{
    margin:10px;
+}
+@media (max-width: 768px) {
+    .mainBody {
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .mainBody {
+        display:list-item
+    }
+
+    .navText {
+        flex-direction: column;
+    }
+
+    .navText p {
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .drop p {
+        padding: 8px;
+    }
+
+    .contact p {
+        margin: 5px;
+    }
 }
