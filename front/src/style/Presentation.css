@@ -38,9 +38,9 @@
 }
 
 .button2:hover {
-  background-color: #2980b9; /* Change the background color on hover */
-  transform: translateY(-5px); /* Move the button slightly up */
-  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+  background-color: #2980b9; 
+  transform: translateY(-5px); 
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2); 
 }
 .image{
     width: 50%;
