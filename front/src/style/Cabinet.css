@@ -1,0 +1,64 @@
+.CabMain {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 10vh; */
+    padding: 20px;
+    background-color: #f5f5f5;
+   }
+   
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   
+   .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+   }
+   
+   .CabMain h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+   }
+   
+   .CabMain h2 {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+   }
+   
+   .CabMain p {
+    font-size: 14px;
+    color: #777;
+   }
+   .MainBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .Block {
+   
+    width: 70%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   .Block1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+   }

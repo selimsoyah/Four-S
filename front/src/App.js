@@ -7,16 +7,23 @@ import Presentation from './components/Presentation';
 import Owl from './components/Owl';
 import Footer from './components/Footer';
 import Email from './components/Email'
+import Cabinet from './components/Cabinet';
+import { Route, Routes } from 'react-router-dom'
+
 function App() {
   return (
     <div className="App">
-        <NavBar/>
-        <MainPart/>
-        <Presentation/>
-        <Owl/>
-        <Email/>
-        <Footer/>
-       
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<>
+          <MainPart />
+          <Presentation />
+          <Owl />
+          <Email />
+        </>} />
+        <Route path='/cabinet' element={<Cabinet />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
