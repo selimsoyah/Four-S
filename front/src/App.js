@@ -8,6 +8,8 @@ import Owl from './components/Owl';
 import Footer from './components/Footer';
 import Email from './components/Email'
 import Cabinet from './components/Cabinet';
+import Fondateur from './components/Fondateur';
+import Contact from './components/Contact';
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
           <Email />
         </>} />
         <Route path='/cabinet' element={<Cabinet />} />
+        <Route path='/Fondateur' element={<Fondateur />} />
+        <Route path='/Conatct' element={<Contact />} />
       </Routes>
       <Footer />
     </div>
